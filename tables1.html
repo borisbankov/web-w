@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <style>
+        td{
+            border:solid 1px black;
+        }
+        pre {
+            display: block;
+            font-family: monospace;
+            white-space: pre;
+            margin: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <table cellspacing="0">
+        <tr>
+            <td>
+                1.1
+            </td>
+            <td colspan="2">
+                1.2
+            </td>
+        </tr>
+        <tr>
+            <td>
+                2.1
+            </td>
+            <td rowspan="2">
+                2.2
+            </td>
+            <td>
+                2.3
+            </td>
+        </tr>
+        
+        <tr>
+            <td>
+                3.1
+            </td>
+            <td>
+                3.2
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                4.1
+            </td>
+            <td rowspan="2">
+                4.2
+            </td>
+        </tr>
+        <tr>
+            <td>
+                5.1
+            </td>
+            <td>
+                5.2
+            </td>
+        </tr>
+    </table>
+    <pre>
+        &lt;tr&gt
+            &lt;td&gt
+                1.1
+            &lt;/td&gt
+            &lt;td colspan="2"&gt
+                1.2
+            &lt;/td&gt
+        &lt;/tr&gt
+        &lt;tr&gt
+            &lt;td&gt
+                2.1
+            &lt;/td&gt
+            &lt;td rowspan="2"&gt
+                2.2
+            &lt;/td&gt
+            &lt;td&gt
+                2.3
+            &lt;/td&gt
+        &lt;/tr&gt
+        &lt;tr&gt
+            &lt;td&gt
+                3.1
+            &lt;/td&gt
+            &lt;td&gt
+                3.2
+            &lt;/td&gt
+        &lt;/tr&gt
+    </pre>
+</body>
+</html>
