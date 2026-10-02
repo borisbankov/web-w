@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        HTML Forms Example
+    </title>
+    <meta charset="UTF-8"/>
+    <style>
+        td {
+            border: solid 3px black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table>
+            <tr>
+                <th>флаг</th>
+                <th>език</th>
+                <th>държава</th>
+                <th>Посетена?</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://placehold.co/30x30" alt="">
+                </td>
+                <td>немски</td>
+                <td>Германия</td>
+                <td>
+                    <input type="hidden" name="german_confirmed" value="0">
+                    <input type="checkbox" name="german_confirmed" value="1">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <img src="https://placehold.co/30x30" alt="">
+                </td>
+                <td>английски</td>
+                <td>САЩ</td>
+                <td>
+                    <input type="hidden" name="usa_confirmed" value="0">
+                    <input type="checkbox" name="usa_confirmed" value="1">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="https://placehold.co/30x30" alt="">
+                </td>
+                <td>японски</td>
+                <td>Япония</td>
+                <td>
+                    <input type="hidden" name="japan_confirmed" value="0">
+                    <input type="checkbox" name="japan_confirmed" value="1">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
