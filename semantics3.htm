@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+
+		div {
+			width: 350px;
+			display:flex;
+			/*flex-wrap: wrap;*/
+			gap: 4px;
+			justify-content: space-between;
+			box-sizing: border-box;
+			margin-bottom: 4px;
+		}
+		div:not(div:first-of-type) > input {
+			flex:1 1 45px;
+			text-align: left;
+			padding-bottom: 6px;
+			padding-top: 3px;
+			padding-left: 4px;
+			background: linear-gradient(#f4f6f4 0%, #dcdedc 45%, #d2d4d2 50%, #d1d1d1 100%);
+			font-weight: 600;
+
+		}
+		input[disabled] {
+			background: #f4f3f4!important;
+			border: solid 2px #d7d8da;
+		}
+		div:nth-of-type(2) > span{
+			font-size: 14px;
+			text-align: center;
+			flex: 0 0 45px;
+		}
+		
+		div:nth-of-type(1), div:nth-of-type(2) {
+			background: #f4f2f4;
+			border: solid 2px #d7d8da;
+			border-radius: 4px;
+			
+		}
+		div:nth-of-type(1){
+			padding: 8px 10px;
+			justify-content: space-around;
+		}
+		strong{
+			margin: 0 20px;
+			font-size: 18px;
+		}
+		div:nth-of-type(1) > input{
+			width: 35px;
+			font-weight:bold;
+			background: linear-gradient(#f4f6f4 0%, #dcdedc 45%, #d2d4d2 50%, #d1d1d1 100%);
+			padding: px;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<input type="button" value="<<">
+		<input type="button" value="<">
+		<strong>December 2007</strong>
+		<input type="button" value=">">
+		<input type="button" value=">>">
+	</div>
+	<div>
+		<span>Sun</span>
+		<span>Mon</span>
+		<span>Tue</span>
+		<span>Wed</span>
+		<span>Thu</span>
+		<span>Fri</span>
+		<span>Sat</span>
+	</div>
+	<div>
+		<input type="button" disabled value="25">
+		<input type="button" disabled value="26">
+		<input type="button" disabled value="27">
+		<input type="button" disabled value="28">
+		<input type="button" disabled value="29">
+		<input type="button" disabled value="30">
+		<input type="button" value="1">
+	</div>
+	<div>
+		<input type="button" value="2">
+		<input type="button" value="3">
+		<input type="button" value="4">
+		<input type="button" value="5">
+		<input type="button" value="6">
+		<input type="button" value="7">
+		<input type="button" value="8">
+	</div>
+	<div>
+		<input type="button" value="9">
+		<input type="button" value="10">
+		<input type="button" value="11">
+		<input type="button" value="12">
+		<input type="button" value="13">
+		<input type="button" value="14">
+		<input type="button" value="15">
+	</div>
+	<div>
+		<input type="button" value="16">
+		<input type="button" value="17">
+		<input type="button" value="18">
+		<input type="button" value="19">
+		<input type="button" value="20">
+		<input type="button" value="21">
+		<input type="button" value="22">
+	</div>
+	<div>
+		<input type="button" value="23">
+		<input type="button" value="24">
+		<input type="button" value="25">
+		<input type="button" value="26">
+		<input type="button" value="27">
+		<input type="button" value="28">
+		<input type="button" value="29">
+	</div>
+	<div>
+		<input type="button" value="30">
+		<input type="button" value="31">
+		<input type="button" disabled value="1">
+		<input type="button" disabled value="2">
+		<input type="button" disabled value="3">
+		<input type="button" disabled value="4">
+		<input type="button" disabled value="5">
+	</div>
+</body>
+</html>
