@@ -1,0 +1,32 @@
+.container{
+	display:flex;
+}
+.left-column{
+	background: lightyellow;
+	padding:20px 30px 0px 20px;
+}
+.middle-column{
+	background: coral;
+	padding:5px;
+}
+.right-column{
+	background: lightseagreen;
+	text-align: center;
+	padding:20px 15px 0px 15px;
+}
+a{
+	color: red;
+	font-weight: bold;
+}
+
+.row{
+	display:flex;
+	align-items:start;
+	border-bottom: 2px black solid;
+	margin-bottom: 3px;
+	padding-bottom: 15px;
+}
+.col{
+	text-align: center;
+	flex: 0 0 200px;
+}

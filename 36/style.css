@@ -1,0 +1,38 @@
+.container{
+	display:flex;
+}
+.left-column{
+	background: lightyellow;
+	padding:20px 30px 0px 20px;
+}
+.middle-column{
+	background: coral;
+	padding: 10px;
+	flex: 0 0 300px;
+}
+.right-column{
+	background: lightseagreen;
+	text-align: center;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 40px;
+}
+ul > li > a{
+	color: coral;
+	font-weight: bold;
+}
+img{
+	flex: 0 0 100px;
+}
+.row {
+	border-bottom: 2px solid black;
+	margin-bottom: 4px;
+	display: flex;
+	justify-content: space-between;
+	align-items: start;
+}
+
+.col{
+	text-align: center;
+	flex: 0 0 200px;
+}

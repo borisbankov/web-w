@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		td{
+			box-sizing: border-box;
+			width: 100px;
+			height: 100px;
+			padding-left: 5px;
+		}
+		.box-1{
+			background: #b90000;
+		}
+		.box-2{
+			background: #4c9c01;
+		}
+		.box-3{
+			background: #0081cc;
+		}
+		.box-4{
+			background: #4902a7;
+		}
+		.box-5{
+			background: #f3e300;
+		}
+		.box-6{
+			background: #ffa600;
+		}
+
+		.menu-1 {
+			background: #2B6666;
+			padding:20px;
+		}
+		ul {
+			margin:0;
+			padding:0;
+			list-style-type: none;
+		}
+		a {
+			text-decoration: none;
+			font-family: Arial;
+		}
+		.menu-1 a {
+			color: white;
+			padding: 6px;
+			font-weight: bold;
+		}
+		.menu-1 a:hover{
+			color:#2b6666;
+			background: white;
+		}
+		.menu-1 li{
+			display: inline-block;
+			padding:0px 7px;
+			border-right: solid 2px white;
+		}
+		.menu-1 li:last-of-type{
+			border-right: none;
+		}
+		.menu-1 ul {
+			text-align: center;
+		}
+
+		.menu-2 {
+			background: #a29f9f;
+			padding: 20px;
+		}
+		.menu-2 ul{
+			display:flex;
+			justify-content: center;
+		}
+
+		.menu-2 a {
+			background: #89c048;
+			color:white;
+			padding:8px;
+			font-weight: bold;
+			box-shadow: 0px 8px 8px -6px black;
+		}
+		.menu-2 a:hover{
+			background: white;
+			color:#89c048;
+		}
+		.menu-2 li {
+			margin: 0 10px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td class="box-1">1</td>
+			<td class="box-2">2</td>
+			<td class="box-3">3</td>
+		</tr>
+		<tr>
+			<td class="box-4">4</td>
+			<td class="box-5">5</td>
+			<td class="box-6">6</td>
+		</tr>
+	</table>
+
+	<div class="menu-1">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Services</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+
+	<div class="menu-2">
+		<ul>
+			<li><a href="#">Начало</a></li>
+			<li><a href="#">Новини</a></li>
+			<li><a href="#">Дейности</a></li>
+			<li><a href="#">Контакти</a></li>
+			<li><a href="#">Форум</a></li>
+		</ul>
+	</div>
+</body>
+</html>

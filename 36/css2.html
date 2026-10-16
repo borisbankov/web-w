@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		td{
+			width: 100px;
+			height: 100px;
+			padding-left: 5px;
+			box-sizing: border-box;
+		}
+		.box-1{
+			background: #b90000;
+		}
+		.box-2{
+			background: #4c9c01;
+		}
+		.box-3{
+			background: #0081cc;
+		}
+		.box-4{
+			background: #4902a7;
+		}
+		.box-5{
+			background: #f3e300;
+		}
+		.box-6{
+			background: #ffa600;
+		}
+
+
+		.menu-1{
+			background: #2B6666;
+			padding:10px;
+		}
+		.menu-1 ul{
+			padding-left: 0px;
+			margin: 0px;
+			list-style-type: none;
+			text-align: center;
+		}
+		.menu-1 ul li {
+			display:inline-block;
+		}
+		.menu-1 ul li a {
+			font-weight: bold;
+			color: white;
+			text-decoration: none;
+			font-family: Arial;
+			display:inline-block;
+			padding: 6px 8px;
+		}
+		.menu-1 ul li a:hover{
+			color: #2b6666;
+			background: white;
+		}
+		.menu-1 ul li{
+			border-right: solid 2px white;
+			padding:0px 8px;
+		}
+		.menu-1 ul li:last-of-type{
+			border-right: none;
+		}
+
+		.menu-2{
+			background: #a29f9f;
+			padding:15px;
+		}
+		.menu-2 ul{
+			list-style-type: none;
+			padding-left:0px;
+			margin:0px;
+			display: flex;
+			justify-content: center;
+		}
+		.menu-2 ul li{
+			/*nqma display inline block*/
+			margin:0px 15px;
+		}
+		.menu-2 ul li a{
+			background: #89c048;
+			color:white;
+			text-decoration: none;
+			font-weight: bold;
+			font-family: Arial;
+			padding: 6px 8px;
+			display:inline-block;
+			box-shadow: 0px 8px 8px -6px black;
+		}
+		.menu-2 ul li a:hover{
+			background: white;
+			color: #89c048;
+		}
+	</style>
+</head>
+<body>
+	<table>
+		<tr>
+			<td class="box-1">1</td>
+			<td class="box-2">2</td>
+			<td class="box-3">3</td>
+		</tr>
+		<tr>
+			<td class="box-4">4</td>
+			<td class="box-5">5</td>
+			<td class="box-6">6</td>
+		</tr>
+	</table>
+
+	<div class="menu-1">
+		<ul>
+			<li>
+				<a href="#">Home</a>
+			</li>
+			<li>
+				<a href="#">About</a>
+			</li>
+			<li>
+				<a href="#">Service</a>
+			</li>
+			<li>
+				<a href="#">Contact</a>
+			</li>
+		</ul>
+	</div>
+
+	<div class="menu-2">
+		<ul>
+			<li>
+				<a href="#">Начало</a>
+			</li>
+			<li>
+				<a href="#">Новини</a>
+			</li>
+			<li>
+				<a href="#">Дейности</a>
+			</li>
+			<li>
+				<a href="#">Контакти</a>
+			</li>
+			<li>
+				<a href="#">Форум</a>
+			</li>
+		</ul>
+	</div>
+</body>
+</html>
