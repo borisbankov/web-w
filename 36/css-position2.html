@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<style>
+		.row, .news {
+			display: flex;
+			font-family: "Roboto Condensed";
+		}
+		.news-item{
+			margin-right: 40px;
+			width:400px;
+		}
+		.labels{
+			margin-top:20px;
+			padding-left:8px;
+		}
+		.news-heading{
+			padding-left: 8px;
+			margin-top: 5px;
+			font-size: 26px;
+			font-weight: 500;
+		}
+		.labels{
+			font-size:12px;
+		}
+		.label-category{
+			color:blue;
+			text-transform: uppercase;
+			font-weight: bold;
+		}
+		.label-time{
+			color:#a0a0a0;
+			margin:0 12px;
+		}
+		.label-updated{
+			color:red;
+		}
+		.category-title, .category-post{
+			background: #ececec;
+			padding:15px;
+			width:400px;
+			box-sizing: border-box;
+		}
+		.category-post{
+			padding:15px 15px 35px 15px;
+			margin-bottom:30px;
+		}
+		.category-title{
+			margin-top:20px;
+			margin-bottom:1px;
+			color:blue;
+			font-size: 22px;
+			text-transform: uppercase;
+			font-weight: 600;
+		}
+		.category-labels{
+			font-size:12px;
+		}
+		.category-heading{
+			font-size: 20px;
+			font-weight: 500;
+			margin-top: 8px;
+		}
+		.category-title > span {
+			font-weight: 400;
+		}
+	</style>		
+</head>
+<body>
+	<div class="row">
+		<div class="left-column">
+			<div class="news">
+				<div class="news-item">
+					<img src="https://placehold.co/400x225" alt="">
+					<div class="labels">
+						<span class="label-category">
+							Светът
+						</span>
+						<span class="label-time">
+							06:24
+						</span>
+						<span class="label-updated">
+							обновена
+						</span>
+					</div>
+					<div class="news-heading">
+						Италия в паника след силните трусове (ВИДЕО + СНИМКИ)
+					</div>
+				</div>
+				<div class="news-item">
+					<img src="https://placehold.co/400x225" alt="">
+					<div class="labels">
+						<span class="label-category">
+							Крими
+						</span>
+						<span class="label-time">
+							08:49
+						</span>
+						<span class="label-updated">
+							обновена
+						</span>
+					</div>
+					<div class="news-heading">
+						Преобърнат тир блокира трафика по АМ "Тракия" (ВИДЕО + СНИМКИ)
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="right-column">
+			<div class="category-title">
+				Всичко от днес <span>&#10093;</span>
+			</div>
+			<div class="category-post">
+				<div class="category-labels">
+					<span class="label-category">
+						България
+					</span>
+					<span class="label-time">
+						12:12
+					</span>
+				</div>
+				<div class="category-heading">
+					Ямболско село се готви за голям протест срещу бежанците
+				</div>
+			</div>
+			<div class="category-title">
+				Избори 2016 <span>&#10093;</span>
+			</div>
+			<div class="category-post">
+				<div class="category-labels">
+					<span class="label-category">
+						Избори 2016
+					</span>
+					<span class="label-time">
+						08:08
+					</span>
+				</div>
+				<div class="category-heading">
+					Битката за "Дондуков" 2: Говорят Татяна Дончева и Минчо Спасов
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
