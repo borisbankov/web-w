@@ -1,0 +1,56 @@
+body{
+	font-family: "Roboto Condensed";
+}
+.row{
+	display: flex;
+}
+.news{
+	margin-right: 30px;
+	width: 400px;
+}
+.news-labels{
+	padding-top: 20px;
+	padding-left: 8px;
+	font-size:14px;
+}
+.label-cat{
+	color: blue;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.label-time{
+	color: lightgray;
+	margin: 0 18px;
+}
+.label-status{
+	color: red;
+}
+.news-title{
+	margin-top:5px;
+	font-weight: 500;
+	font-size: 27px;
+	padding-left: 8px;
+}
+.cat-title, .cat-item{
+	background: #ececec;
+	padding: 18px;
+}
+.cat-item{
+	padding-bottom: 25px;
+}
+.cat-title{
+	margin-top: 20px;
+	margin-bottom: 1px;
+	color: blue;
+	font-size: 26px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.cat-heading{
+	margin-top: 8px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.right-column{
+	width: 400px;
+}
