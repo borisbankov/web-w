@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		* {
+			box-sizing: border-box;
+		}
+		.container {
+			width: 1120px;
+			margin: 0 auto;
+		}
+		.main {
+			background: black;
+			padding: 30px 30px 0px 30px;
+		}
+
+		.main-title {
+			text-transform: uppercase;
+			font-family: 'Courier';
+			color: white;
+			text-align: center;
+			font-weight: 700;
+			padding: 20px 0px;
+		}
+		.main-menu {
+			background: #999999;
+			padding: 5px;
+		}
+		.nav {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+		}
+		.nav-item{
+			margin-right: 5px;
+		}
+		.nav-item:nth-of-type(1){
+			background: #51a7ac;
+		}
+		.nav-item:nth-of-type(2){
+			background: #e8301d;
+		}
+		.nav-item:nth-of-type(3){
+			background: #89b453;
+		}
+		.nav-item:nth-of-type(4){
+			background: #f6c743;
+		}
+		.nav-item:nth-of-type(5){
+			background: #f07f30;
+		}
+		.nav-link {
+			color: white;
+			text-decoration: none;
+			display: inline-block;
+			padding: 4px;
+		}
+		.main-info {
+			background: white;
+			padding: 45px 75px 50px 75px;
+			text-align: center;
+		}
+		h1 {
+			color: #f0412f;
+			transform: scaleY(2.5);
+			font-family: 'Lucida Console';
+			margin-top: 0;
+			font-size: 50px;
+		}
+		h2 {
+			color: #797c80;
+		}
+		p {
+			color: #c6bfbf;
+			line-height: 2;
+		}
+		.sections {
+			display: flex;
+		}
+		.column {
+			text-align: center;
+			padding: 25px 20px 70px 20px;
+			flex-basis: 20%;
+		}
+		.badge {
+			display: inline-block;
+			border-radius: 45%;
+			padding: 8px 10px;
+			box-shadow: 0px 3px 5px -1px black;
+		}
+		.badge > img {
+			width: 40px;
+		}
+		.column:nth-of-type(1) {
+			background: #a2d6d9;
+		}
+		.column:nth-of-type(1) > .badge {
+			background: #51a7ac;
+		}
+		.column:nth-of-type(2) {
+			background: #f48871;
+		}
+		.column:nth-of-type(2) > .badge {
+			background: #e8301d;
+		}
+		.column:nth-of-type(3) {
+			background: #b9d694;
+		}
+		.column:nth-of-type(3) > .badge {
+			background: #89b453;
+		}
+		.column:nth-of-type(4) {
+			background: #fae17c;
+		}
+		.column:nth-of-type(4) > .badge {
+			background: #f6c743;
+		}
+		.column:nth-of-type(5) {
+			background: #f6b56b;
+		}
+		.column:nth-of-type(5) > .badge {
+			background: #f07f30;
+		}
+		.column-title{
+			font-weight: bold;
+			text-shadow: 0px 1px 2px black;
+			margin-top: 40px;
+			margin-bottom: 30px;
+			font-size: 20px;
+		}
+		.column:nth-of-type(1) > .column-title {
+			color: #51a7ac;
+		}
+		.column:nth-of-type(2) > .column-title {
+			color: #e8301d;
+		}
+		.column:nth-of-type(3) > .column-title {
+			color: #89b453;
+		}
+		.column:nth-of-type(4) > .column-title {
+			color: #f6c743;
+		}
+		.column:nth-of-type(5) > .column-title {
+			color: #f07f30;
+		}
+		.column-text{
+			color: white;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="main">
+			<div class="main-menu">
+				<ul class="nav">
+					<li class="nav-item"><a href="#" class="nav-link">File</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Edit</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">View</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Tools</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Help</a></li>
+				</ul>
+			</div>
+			<div class="main-info">
+				<h1>HTML AND CSS</h1>
+				<h2> < CHEAT SHEET > </h2>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed, aliquam porro voluptates ab facere repudiandae eligendi quo reiciendis rerum cum, ex. Odit cum similique eius molestias voluptatum eum, quam 
+				Odit cum similique eius molestias voluptatum eum, quam  Odit cum similique eius molestias voluptatum eum, m similique eius molestias voluptatum eum, m similique eius molestias voluptatum eum, quam non.</p>
+			</div>
+			<div class="main-title">
+				A title for beginners
+			</div>
+		</div>
+		<div class="sections">
+			<div class="column">
+				<div class="badge">
+					<img src="https://static.thenounproject.com/png/89200-200.png" alt="">
+				</div>
+				<div class="column-title">
+					HTML
+				</div>
+				<div class="column-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos deleniti maxime harum excepturi velit id dolorum architecto a saepe expedita qui tenetur assumenda reprehenderit, est, autem nihil temporibus aperiam.
+				</div>
+			</div>
+			<div class="column">
+				<div class="badge">
+					<img src="https://static.thenounproject.com/png/3803708-200.png" alt="">
+				</div>
+				<div class="column-title">
+					CSS
+				</div>
+				<div class="column-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos deleniti maxime harum excepturi velit id dolorum architecto a saepe expedita qui tenetur assumenda reprehenderit, est, autem nihil temporibus aperiam.
+				</div>
+			</div>
+			<div class="column">
+				<div class="badge">
+					<img src="https://static.thenounproject.com/png/3532081-200.png" alt="">
+				</div>
+				<div class="column-title">
+					SNIPETS
+				</div>
+				<div class="column-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos deleniti maxime harum excepturi velit id dolorum architecto a saepe expedita qui tenetur assumenda reprehenderit, est, autem nihil temporibus aperiam.
+				</div>
+			</div>
+			<div class="column">
+				<div class="badge">
+					<img src="https://static.thenounproject.com/png/3805888-200.png" alt="">
+				</div>
+				<div class="column-title">
+					TAGS
+				</div>
+				<div class="column-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos deleniti maxime harum excepturi velit id dolorum architecto a saepe expedita qui tenetur assumenda reprehenderit, est, autem nihil temporibus aperiam.
+				</div>
+			</div>
+			<div class="column">
+				<div class="badge">
+					<img src="https://static.thenounproject.com/png/1489354-200.png" alt="">
+				</div>
+				<div class="column-title">
+					HYPERLINKS
+				</div>
+				<div class="column-text">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur dignissimos deleniti maxime harum excepturi velit id dolorum architecto a saepe expedita qui tenetur assumenda reprehenderit, est, autem nihil temporibus aperiam.
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
