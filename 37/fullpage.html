@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="https://use.typekit.net/zpy8rod.css">
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		body{
+			font-family: myriad-pro, sans-serif;
+			font-weight: 400;
+			font-style: normal;
+		}
+		.header{
+			background: #635240;
+			border-bottom: 12px solid #a56c99;
+			padding-top: 14px;
+			padding-bottom: 19px;
+		}
+		.container{
+			width: 955px;
+			margin: 0 auto;
+		}
+		.nav{
+			list-style-type: none;
+			margin: 0px;
+			padding-left: 18px;
+		}
+		.row{
+			display: flex;
+			flex-wrap: wrap;
+		}
+		.nav-item{
+			margin: 0px 10px;
+		}
+		.nav-link{
+			color: white;
+			text-decoration: none;
+			text-transform: lowercase;
+		}
+		.main{
+			background: rgb(122,107,74);
+			background: linear-gradient(180deg, rgba(122,107,74,1) 0%, rgba(61,55,39,1) 36%, rgba(36,32,23,1) 36%, rgba(36,32,23,1) 100%);
+		}
+		.main-intro{
+			padding-left: 6px;
+			padding-top: 21px;
+			margin-bottom: 28px;
+		}
+		.align-center{
+			align-items: center;
+		}
+		.main-intro > h1{
+			color: white;
+			margin: 0 0 0 11px;
+			font-weight: 500;
+		}
+		.slider{
+			background: #a56c99;
+			border-radius: 8px;
+			padding: 14px 11px 20px 9px;
+		}
+		.left-column{
+			margin-right: 15px;
+		}
+		.arrow{
+			text-decoration: none;
+			color: #6b4461;
+		}
+		.middle-column{
+			width: 875px;
+		}
+		.slider-title{
+			color: #ffe5be;
+			font-size: 34px;
+		}
+		.slider-meta{
+			border-top: solid 2px #6b4461;
+			border-bottom: solid 2px #6b4461;
+			font-size: 14px;
+			font-weight: 600;
+			padding:3px;
+			margin: 5px 0px;
+		}
+		.slider-text{
+			color: white;
+			font-family: 'Rockwell';
+
+		}
+		.right-column{
+			margin-left: 17px;
+		}
+		.blog{
+			background: #201b15;
+			border: solid 2px #3f0e2b;
+			color: #b08fa0;
+			padding:25px 0px 135px 29px;
+			margin-top: 24px;
+		}
+		.blog > .row {
+			justify-content: space-between;
+		}
+		.popular{
+			width: 263px;
+		}
+		.blog-headings{
+			color: #ffe5be;
+			margin-top: 0px;
+			text-transform: uppercase;
+			font-weight: 500;
+		}
+		.comments{
+			width: 263px;
+		}
+		.livestream{
+			width: 263px;
+			margin-right: 38px;
+		}
+
+		.popular-item{
+
+		}
+		.item-heading{
+			color: #84546c;
+			margin-top: 14px;
+		}
+		.item-meta{
+			border-top: solid 1px #422136;
+			border-bottom: solid 1px #422136;
+			color: #502f40;
+			font-size: 12px;
+			padding: 3px;
+			margin-bottom: 7px;
+			margin-top: 5px;
+		}
+		.item-img{
+			width: 80px;
+			height: 80px;
+			border: #3c1c2b solid 1px;
+			box-shadow: inset -1px 0px 1px 2px #251019;
+		}
+		.item-text{
+			width: 176px;
+			height: 75px;
+			padding: 3px 0px 2px 0px;
+			text-overflow: ellipsis;
+			overflow: hidden;
+			text-wrap: wrap;
+			font-size: 14px;
+			margin-left: 7px;
+			display: -webkit-box;
+			-webkit-line-clamp: 4;
+			-webkit-box-orient: vertical;
+		}
+				.comment-box{
+			flex-wrap: wrap;
+			margin-top: 20px;
+		}
+
+		.comment-avatar{
+			background: #f22f37;
+			color: white;
+			width: 23px;
+			height: 23px;
+			text-align: center;
+			font-size: 8px;
+			padding-top: 6px;
+		}
+		.comment-user{
+			color: #775264;
+			width: 230px;
+			margin-left: 10px;
+		}
+		.comment-user span{
+			color: #b58f9e;
+		}
+		.comment-text{
+			border-top: solid 1px #402133;
+			color: #b58f9e;
+			width: 100%;
+			margin-bottom: 0px;
+			margin-top: 5px;
+			padding-top: 4px;
+
+		}
+	</style>	
+</head>
+<body>
+	<div class="header">
+		<div class="container">
+			<ul class="nav row">
+				<li class="nav-item"><a href="#" class="nav-link">about</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">portfolio</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">quote</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">products</a></li>
+				<li class="nav-item"><a href="#" class="nav-link">testimonials</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="main">
+		<div class="container">
+			<div class="main-intro row align-center">
+				<img src="https://placehold.co/80x50" alt="">
+				<h1>ИУ - Варна</h1>
+			</div>
+			<div class="slider">
+				<div class="row align-center">
+					<div class="left-column">
+						<a href="#" class="arrow"> &#9664;</a>
+					</div>
+					<div class="middle-column">
+						<div class="slider-title">Maecenas lorem alal basdgfdslds adsnbj</div>
+						<div class="slider-meta">Posted by admin in on 09 30th, 2018| 2 Comments</div>
+						<div class="slider-text">Pellentesque Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque officia minus neque iste labore! Quos, dolores expedita excepturi dolor magnam blanditiis magni, laborum deleniti esse aut tempora voluptas cum quo! i esse aut tempora voluptas cu i esse aut tempora voluptas cu</div>
+					</div>
+					<div class="right-column">
+						<a href="#" class="arrow"> &#9654; </a>
+					</div>
+				</div>
+			</div>
+			<div class="blog">
+				<div class="row">
+					<div class="popular">
+						<h2 class="blog-headings">
+							Popular articles
+						</h2>
+						<div class="popular-item">
+							<div class="item-heading">
+								Maecenas alasdsa gdfsa gs
+							</div>
+							<div class="item-meta">
+								Posted by admin in on 09 30th, 2018| 2 Comments
+							</div>
+							<div class="row">
+								<div class="item-img">
+									
+								</div>
+								<div class="item-text">
+									Sed sollicitudin, Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati velit necessitatibus suscipit sapiente repellendus corrupti ducimus assumenda nulla fuga reiciendis totam commodi, odit enim beatae! Consequuntur nam soluta tempora?
+								</div>
+							</div>
+						</div>
+						<div class="popular-item">
+							<div class="item-heading">
+								Maecenas alasdsa gdfsa gs
+							</div>
+							<div class="item-meta">
+								Posted by admin in on 09 30th, 2018| 2 Comments
+							</div>
+							<div class="row">
+								<div class="item-img">
+									
+								</div>
+								<div class="item-text">
+									Sed sollicitudin, Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati velit necessitatibus suscipit sapiente repellendus corrupti ducimus assumenda nulla fuga reiciendis totam commodi, odit enim beatae! Consequuntur nam soluta tempora?
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="comments">
+						<h2 class="blog-headings">
+							Recent Comments
+						</h2>
+						<div class="comment-box">
+							<div class="row">
+								<div class="comment-avatar">+</div>
+								<div class="comment-user">Maecenas <span>says</span></div>
+							</div>
+							<p class="comment-text">
+								Pellentesque Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iste hic libero aliquid 
+							</p>
+						</div>
+						<div class="comment-box">
+							<div class="row">
+								<div class="comment-avatar">+</div>
+								<div class="comment-user">Maecenas <span>says</span></div>
+							</div>
+							<p class="comment-text">
+								Pellentesque Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iste hic libero aliquid 
+							</p>
+						</div>
+						<div class="comment-box">
+							<div class="row">
+								<div class="comment-avatar">+</div>
+								<div class="comment-user">Maecenas <span>says</span></div>
+							</div>
+							<p class="comment-text">
+								Pellentesque Lorem, ipsum dolor sit amet consectetur, adipisicing elit. Iste hic libero aliquid 
+							</p>
+						</div>
+					</div>
+					<div class="livestream">
+						<h2 class="blog-headings">
+							Lifestream
+						</h2>
+						<div class="popular-item">
+							<div class="item-heading">
+								Maecenas alasdsa gdfsa gs
+							</div>
+							<div class="item-meta">
+								Posted by admin in on 09 30th, 2018| 2 Comments
+							</div>
+							<div class="row">
+								<div class="item-img">
+									
+								</div>
+								<div class="item-text">
+									Sed sollicitudin, Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati velit necessitatibus suscipit sapiente repellendus corrupti ducimus assumenda nulla fuga reiciendis totam commodi, odit enim beatae! Consequuntur nam soluta tempora?
+								</div>
+							</div>
+						</div>
+						<div class="popular-item">
+							<div class="item-heading">
+								Maecenas alasdsa gdfsa gs
+							</div>
+							<div class="item-meta">
+								Posted by admin in on 09 30th, 2018| 2 Comments
+							</div>
+							<div class="row">
+								<div class="item-img">
+									
+								</div>
+								<div class="item-text">
+									Sed sollicitudin, Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Veritatis obcaecati velit necessitatibus suscipit sapiente repellendus corrupti ducimus assumenda nulla fuga reiciendis totam commodi, odit enim beatae! Consequuntur nam soluta tempora?
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="recent-posts-left">
+						<h2 class="blog-headings">
+							Recent posts
+						</h2>
+					</div>
+					<div class="recent-posts-right">
+						
+					</div>
+				</div>
+			</div>			
+		</div>
+	</div>
+</body>
+</html>
