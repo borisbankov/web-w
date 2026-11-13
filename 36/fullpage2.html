@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+		html, body{
+			font-family: 'Lato';
+			font-weight: normal;
+			margin:0px;
+		}
+		*{
+			box-sizing: border-box;
+		}
+		.d-flex{
+			display: flex;
+		}
+		.align-center{
+			align-items: center;
+		}
+		.justify-center {
+			justify-content: center;
+		}
+		.justify-between {
+			justify-content: space-between;
+		}
+		.container{
+			width: 1170px;
+			margin: 0 auto;
+		}
+		.siv-header{
+			background: #3a454b;
+			padding: 58px 0px;
+			border-bottom: 2px solid #536068;
+		}
+		.nav{
+			list-style-type: none;
+			margin:0;
+			padding:0;
+			flex-basis: auto;
+		}
+		.nav-item{
+
+		}
+		.nav-link{
+			color: white;
+			border:solid 2px #3a454b;
+			padding: 12px 20px;
+			display: inline-block;
+			text-decoration: none;
+			text-transform: uppercase;
+		}
+		.nav-link:hover{
+			border: solid 2px #4bcaff;
+			color: #4bcaff;
+		}
+		.logo{
+			color: white;
+			font-size: 32px;
+			flex-basis: auto;
+		}
+		.color-letter{
+			color: #4bcaff;
+		}
+		.img-overlay{
+			filter: grayscale(50%) sepia(60%) brightness(80%) hue-rotate(180deg);
+			background: url('https://i.ibb.co/DY3DptD/photo.jpg');
+			height: 650px;
+		}
+		.wrapper{
+			/*padding-top: 255px;/*/
+			/*padding-bottom: 265px;*/
+			/*mix-blend-mode: hard-light;*/
+			position: absolute;
+			top: 255px;
+			left: calc(100% - 1495px);
+		}
+		.relative {
+			position: relative;
+		}
+		.heading-1{
+			width: 713px;
+			margin: 0 auto 12px auto;
+			background: rgba(0, 0, 0, 0.5);
+			padding: 20px 0px 15px 0px;
+			text-align: center;
+			color: white;
+			text-transform: uppercase;
+			font-size: 40px;
+			filter: brightness(3);
+		}
+		.heading-2{
+			width: 993px;
+			margin: 0 auto;
+			padding: 20px 0px 15px 0px;
+			text-align: center;
+			background: rgba(0, 0, 0, 0.5);;
+			color: white;
+			text-transform: uppercase;
+			font-size: 40px;
+			filter: brightness(3);
+		}
+		.bg-blue{
+			background: #4bcaff;
+			padding: 75px 0;
+		}
+		.white-heading{
+			color: white;
+			text-transform: uppercase;
+			font-weight: lighter;
+			font-size: 24px;
+		}
+		.white-border{
+			width: 45px;
+			background: white;
+			height: 2px;
+			display: inline-block;
+			margin-bottom: 110px;
+			margin-top:10px;
+		}
+		.item{
+			flex-basis: 250px;
+			margin-right: 40px;
+		}
+		.item:last-of-type{
+			margin-right: 0px;
+		}
+		.item-title{
+			text-transform: uppercase;
+			margin-bottom: 18px;
+			color: white;
+		}
+		.item-text{
+			color: white;
+		}
+		
+	</style>
+</head>
+<body>
+	
+	<div class="siv-header">
+		<div class="container">
+			<div class="d-flex align-center justify-between">
+				<div class="logo">
+					U<span class="color-letter">E - </span> VARNA
+				</div>
+				<ul class="nav d-flex">
+					<li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Features</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Portfolio</a></li>
+					<li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+		
+	</div>
+	<div class="relative">
+		<div class="img-overlay"></div>
+		<div class="wrapper">
+			<div class="heading-1">"Grow, Nourish, Build."</div>
+			<div class="heading-2">We follow a new vision</div>
+		</div>
+	</div>
+	<div class="bg-blue">
+		<div class="container">
+			<div class="white-heading">
+				Servies
+			</div>
+			<span class="white-border"></span>
+			<div class="d-flex">
+				<div class="item">
+					<div class="item-title">Coffee</div>
+					<div class="item-text">Apple pie Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, accusamus ab magnam quod ullam nulla, esse veniam molestias, aut voluptatem autem provident inventore temporibus laborum, minus id placeat officiis quos.</div>
+				</div>
+				<div class="item">
+					<div class="item-title">Coffee</div>
+					<div class="item-text">Apple pie Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, accusamus ab magnam quod ullam nulla, esse veniam molestias, aut voluptatem autem provident inventore temporibus laborum, minus id placeat officiis quos.</div>
+				</div>
+				<div class="item">
+					<div class="item-title">Coffee</div>
+					<div class="item-text">Apple pie Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, accusamus ab magnam quod ullam nulla, esse veniam molestias, aut voluptatem autem provident inventore temporibus laborum, minus id placeat officiis quos.</div>
+				</div>
+				<div class="item">
+					<div class="item-title">Coffee</div>
+					<div class="item-text">Apple pie Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, accusamus ab magnam quod ullam nulla, esse veniam molestias, aut voluptatem autem provident inventore temporibus laborum, minus id placeat officiis quos.</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
